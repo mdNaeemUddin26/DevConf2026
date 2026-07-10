@@ -1,0 +1,51 @@
+
+.speaker-section{
+    width: 1550px;
+    padding: 0px 100px;
+    margin-bottom: 70px;
+}
+
+.speaker-section h2{
+    font-family: "Inter", sans-serif;
+    color: #000120;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+}
+
+.course{
+    display: grid;
+    grid-template-columns: 650px 650px;
+    gap: 24px;
+}
+
+.speaker img{
+    width: 650px;
+    height: 460px;
+}
+
+.speaker{
+    border: 2px solid rgba(211, 204, 204, 0.575);
+    border-radius: 12px;
+    width: 650px;
+    height: 640px;
+}
+
+.speaker-desc{
+    padding: 24px;    
+}
+
+.tech-name{
+    color: #2563EB;
+    font-weight: normal;
+}
+
+.engr-name{
+    color: #0D1B2A;
+    font-weight: bold;
+}
+
+.engr-desc{
+    color: #575757;
+    font-weight: normal;
+}

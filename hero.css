@@ -12,7 +12,7 @@
 
     font-family: "Inter", sans-serif;
     color: #ffffff;
-    margin-top: 20px, 0px, 0px, 0px;
+    margin-top: 20px;
 
 }
 
@@ -30,8 +30,10 @@
 }
 
 .hero button {
-    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 15px;
     color: #ffffff;
     background-color: #1d4ed8FF;
-    padding: 10px 40px;
+    padding: 24px 72px;
 }
