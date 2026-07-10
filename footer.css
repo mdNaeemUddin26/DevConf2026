@@ -1,0 +1,25 @@
+footer {
+    height: 150px;
+    color: white;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+
+footer > div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer > div > li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}

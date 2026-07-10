@@ -1,14 +1,15 @@
-
-.service-section{
+.service-section {
     font-family: "Inter", sans-serif;
+    width: 1400px;
+    margin: 30px auto;
 }
 
-.service-heading{
+.service-heading {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.service-heading h2{
+.service-heading h2 {
     color: #0D1B2A;
     font-weight: 700;
     font-size: 48px;
@@ -16,33 +17,32 @@
 }
 
 
-.card{
-    display: flex;
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin: 0px 150px;
-    padding-bottom: 70px;
 }
 
-.card-value{
+.card-value {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
 }
 
-.card-category{
+.card-category {
     padding-bottom: 24px;
-      border-bottom: 2px solid rgb(241, 237, 237);
+    border-bottom: 2px solid rgb(241, 237, 237);
 }
 
 
-.card-category p{
-    margin: 0px;  
-}
-
-.card-category h1{
+.card-category p {
     margin: 0px;
 }
 
-.card-service{
+.card-category h1 {
+    margin: 0px;
+}
+
+.card-service {
     width: 370px;
     height: 420px;
     border: 3px solid rgb(243, 238, 238);
@@ -50,17 +50,17 @@
     padding: 24px;
 }
 
-.card-features li::marker{
+.card-features li::marker {
     color: #2563EB;
 }
 
-.card-features li{
+.card-features li {
     padding-bottom: 16px;
     color: #333333;
 }
 
 
-.card-btn button{
+.card-btn button {
     width: 320px;
     padding: 10px 0px;
     color: #2563EB;
@@ -70,12 +70,12 @@
     font-weight: bold;
 }
 
-.btn-pro button{
+.btn-pro button {
     color: white;
     background-color: #2563EB;
 }
 
-.btn-team button{
+.btn-team button {
     width: 320px;
     padding: 10px 0px;
     color: #333336;
