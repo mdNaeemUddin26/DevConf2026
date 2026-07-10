@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #ffffff;
-    margin: 0;
+    margin: 16px 0;
     max-width: 1550px;
     max-height: 100px;
 }

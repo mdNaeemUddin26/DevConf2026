@@ -1,12 +1,12 @@
 
 .speaker-section{
+    font-family: "Inter", sans-serif;
     width: 1550px;
     padding: 0px 100px;
     margin-bottom: 70px;
 }
 
-.speaker-section h2{
-    font-family: "Inter", sans-serif;
+.speaker-section h2{    
     color: #000120;
     font-weight: 700;
     font-size: 56px;
@@ -38,14 +38,17 @@
 .tech-name{
     color: #2563EB;
     font-weight: normal;
+     margin-bottom: 8px;
 }
 
 .engr-name{
     color: #0D1B2A;
     font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .engr-desc{
     color: #575757;
     font-weight: normal;
+    margin-bottom: 8px;
 }
