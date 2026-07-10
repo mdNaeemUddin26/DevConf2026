@@ -1,0 +1,11 @@
+
+
+.hero{
+    background-image: url("image/banner.jpg");
+    width: 1550px;
+    height: 790px;   
+}
+
+.hero-description h3, p{
+       color: white;
+}
