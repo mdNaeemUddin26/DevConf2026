@@ -1,25 +1,51 @@
 footer {
-    height: 150px;
-    color: white;
-    background-color: black;
-    font-family: "Inter", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 200px;
-}
-
-footer > div{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-footer > div > li{
-    list-style: none;
-}
-
-li a{
-    text-decoration: none;
+    height: 200px;
     color: #ffffff;
+    background-color: rgb(8, 8, 8);
+    font-family: "Inter", sans-serif;
+    padding: 50px 70px;
+}
+
+
+
+.fa-facebook,
+.fa-discord,
+.fa-linkedin,
+.fa-github {
+    font-size: 40px;
+    color: white;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+hr{
+    width: 100%;
+    color: rgba(230, 222, 222, 0.822);
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.trade-mark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+.policy {
+    display: flex;
+    gap: 30px;
+}
+
+.policy>a {
+    text-decoration: none;
+    color: rgba(241, 241, 245, 0.637);
 }
